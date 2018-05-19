@@ -1,0 +1,122 @@
+body, html {
+  height: 100%; 
+  background-image: url("../images/spaceBackground.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+section {
+  background: teal;
+  padding: 10px; /* this is to make it wide enough to see the inner box */
+}
+ 
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  width: 1300px;
+  margin: 0 auto;
+  outline: 3px solid white;
+}
+
+li {
+  float: right;
+}
+
+li:first-of-type {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  font-family: "Offside", cursive;
+  font-size: 20px;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.heading) {
+  background-color: red;
+}
+
+.heading {
+  background-color: rgb(69, 124, 37);
+}
+
+img {
+  float: left;
+  margin: 10px;
+  outline: 3px solid teal;
+}
+.paragraph {
+  background: lightblue;
+  height: 300px;
+  width: 1000px;
+  padding: 10px;
+  outline: 3px solid teal;
+  margin: auto;
+}
+
+p {
+  margin: 0;
+  font-family: "Offside", cursive;
+  font-size: 20px;
+}
+
+.footer {
+  position: fixed;
+  background: teal;
+  left: 0;
+  bottom: 0;
+  height: 3%;
+  width: 100%;
+  color: white;
+  text-align: center;
+}
+
+/* I found this at www.w3schools.com and I don't really know how it works with the 
+image grid I was trying to make. */
+
+.column {
+  flex: 50%;
+  padding: 0 4px;
+}
+
+input[type=text], select, textarea {
+  width: 100%; 
+  padding: 12px;  
+  border: 1px solid #ccc;
+  border-radius: 4px; 
+  box-sizing: border-box; 
+  margin-top: 6px; 
+  margin-bottom: 16px; 
+  resize: vertical 
+}
+
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
